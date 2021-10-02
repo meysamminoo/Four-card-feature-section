@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <title>Frontend Mentor | Four card feature section</title>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header class="header">
+        <h1>Reliable, efficient delivery</h1>
+        <h2>Powered by Technology</h2>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+      <main class="main">
+        <article>
+          <div class="box-card border-top-green">
+            <header>
+              <h3 class="box-card-header">Supervisor</h3>
+              <p class="box-cart-description">
+                Supervisor Monitors activity to identify project roadblocks
+              </p>
+            </header>
+            <img
+              src="images/icon-supervisor.svg"
+              class="box-cart-image"
+              alt="Supervisor"
+            />
+          </div>
+        </article>
+        <article>
+          <div class="box-card border-top-red margin-bottom">
+            <header>
+              <h3 class="box-card-header">Team Builder</h3>
+              <p class="box-cart-description">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+            </header>
+            <img
+              src="images/icon-team-builder.svg"
+              class="box-cart-image"
+              alt="Team Builder"
+            />
+          </div>
+          <div class="box-card border-top-orange">
+            <header>
+              <h3 class="box-card-header">Karma</h3>
+              <p class="box-cart-description">
+                Regularly evaluates our talent to ensure quality
+              </p>
+            </header>
+            <img
+              src="images/icon-karma.svg"
+              class="box-cart-image"
+              alt="Karma"
+            />
+          </div>
+        </article>
+        <article>
+          <div class="box-card border-top-blue">
+            <header>
+              <h3 class="box-card-header">Calculator</h3>
+              <p class="box-cart-description">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </header>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+            <img
+              src="images/icon-calculator.svg"
+              class="box-cart-image"
+              alt="Calculator"
+            />
+          </div>
+        </article>
+      </main>
+    </section>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Meysam Minooey</a>.
+      </p>
+    </footer>
+  </body>
 </html>
